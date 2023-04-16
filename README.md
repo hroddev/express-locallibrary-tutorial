@@ -1,6 +1,10 @@
 # LibraryBook using Express JS
 
-Thanks for visit my repository.  This is a practice of a tutorial [mdm web doc](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website)
+Thanks for visit my repository.  This is a practice of a tutorial [mdm web doc](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website).
+
+In this tutorial, you can practice of tools like *mongoose*, *pug*, *javascript*, *docker*.
+
+I make some changes, for example I replace the remote connection of the data base for a local database.
 
 ## How to install my project locally
 
