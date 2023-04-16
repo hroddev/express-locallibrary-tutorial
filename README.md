@@ -10,7 +10,7 @@ First clone the repository and install the dependencies:
 git clone git@github.com:hroddev/express-locallibrary-tutorial.git
 npm i
 ```
-Before you need create an **.env file** in your project root with the next environment variables and replace the info.
+Before you need create an **.env file** in your project root with the next environment variables and replace the values.
 
 ```env
 MONGO_ROOT_USER=<USER ROOT>
