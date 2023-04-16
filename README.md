@@ -7,8 +7,8 @@ Thanks for visit my repository.  This is a practice of a tutorial [mdm web doc](
 First clone the repository and install the dependencies:
 
 ```bash
-$ git clone git@github.com:hroddev/express-locallibrary-tutorial.git
-$ npm i
+git clone git@github.com:hroddev/express-locallibrary-tutorial.git
+npm i
 ```
 Before you need create an **.env file** in your project root with the next environment variables and replace the info.
 
@@ -23,15 +23,19 @@ Next, you need have installed the Docker and Docker compose. This is the officia
 Run the docker compose:
 
 ```bash
-$ sudo docker compose up
+docker compose up
 ```
 
 Run the nodemon in other tab:
 ```bash
-$ DEBUG=express-locallibrary-tutorial:* npm run dev
+// Windows
+SET DEBUG=express-locallibrary-tutorial:* & npm run dev
+
+// Linux
+DEBUG=express-locallibrary-tutorial:* npm run dev
 ```
 Open your browser, put this url and tell me what you think :)
 ```url
 http://localhost:3000/
 ```
-I like the feedbacks so, feel free to comment and if you have a question too.
+I like the feedback so, feel free to comment and if you have a question too.
