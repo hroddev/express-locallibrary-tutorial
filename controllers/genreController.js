@@ -1,9 +1,13 @@
 const Genre = require("../models/genre");
-const asyncHandler = require('express-async-handler')
+const asyncHandler = require("express-async-handler");
 
 // Display list of all Genre.
 exports.genre_list = asyncHandler(async (req, res, next) => {
-  res.send("NOT IMPLEMENTED: Genre list");
+  const allGenre = await Genre.find().exec();
+  res.render("genre_list", {
+    title: "Genre List",
+    genre_list: allGenre,
+  });
 });
 
 // Display detail page for a specific Genre.
