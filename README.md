@@ -25,7 +25,10 @@ Run the docker compose:
 ```bash
 docker compose up
 ```
-
+Add dummy data from the file **populatedb.js** 
+```bash
+node populatedb.js
+```
 Run the nodemon in other tab:
 ```bash
 // Windows
